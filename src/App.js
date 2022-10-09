@@ -34,6 +34,7 @@ function App() {
         },
         {
           path: "/shop",
+          loader : ()=> fetch('tshirts.json'),
           element: <Shop></Shop>,
         },
 
