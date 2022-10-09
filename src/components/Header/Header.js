@@ -4,11 +4,11 @@ import './Home.css'
 
 const Header = () => {
     return (
-      <div className="flex justify-between p-5 bg-sky-900 text-white text-xl">
-        <div className='mx-16'>
-            <h1>FriendShop</h1>
+      <div className="flex justify-between p-5 bg-sky-900 text-white ">
+        <div className="mx-16 text-3xl font-semibold">
+          <h1>FriendShop</h1>
         </div>
-        <div className='menu mx-16'>
+        <div className="menu mx-16 text-xl">
           <Link to="/home">Home</Link>
           <Link to="/friends">Friends</Link>
           <Link to="/shop">Shop</Link>
